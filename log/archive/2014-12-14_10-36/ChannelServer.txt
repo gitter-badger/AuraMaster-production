@@ -1,0 +1,49 @@
+12/14/2014 10:34:33 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/14/2014 10:34:33 PM [Info] - Initializing database...
+12/14/2014 10:34:34 PM [Info] - Loading data...
+12/14/2014 10:34:34 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/14/2014 10:34:34 PM [Info] -   done loading 316 entries from races.txt
+12/14/2014 10:34:34 PM [Info] -   done loading 3 entries from stats_base.txt
+12/14/2014 10:34:35 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/14/2014 10:34:35 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/14/2014 10:34:35 PM [Info] -   done loading 54 entries from motions.txt
+12/14/2014 10:34:35 PM [Info] -   done loading 9 entries from charcards.txt
+12/14/2014 10:34:35 PM [Info] -   done loading 112 entries from colormap.dat
+12/14/2014 10:34:36 PM [Info] -   done loading 14711 entries from items.txt
+12/14/2014 10:34:36 PM [Info] -   done loading 28 entries from chairs.txt
+12/14/2014 10:34:36 PM [Info] -   done loading 534 entries from skills.txt
+12/14/2014 10:34:36 PM [Info] -   done loading 387 entries from regions.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/14/2014 10:34:37 PM [Info] -   done loading 607 entries from shamala.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 200 entries from exp.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 254 entries from pets.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 30 entries from weather.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 3666 entries from keywords.txt
+12/14/2014 10:34:37 PM [Info] -   done loading 748 entries from titles.txt
+12/14/2014 10:34:37 PM [Info] - Loading localization (us)...
+12/14/2014 10:34:37 PM [Info] - Initializing world...
+12/14/2014 10:34:40 PM [Info] -   done loading 387 regions.
+12/14/2014 10:34:40 PM [Info] - Loading AI scripts...
+12/14/2014 10:34:40 PM [Info] - Done loading AI scripts.
+12/14/2014 10:34:40 PM [Info] - Loading item scripts...
+12/14/2014 10:34:41 PM [Info] - Done loading item scripts.
+12/14/2014 10:34:41 PM [Info] - Loading scripts, this might take a few minutes...
+12/14/2014 10:34:41 PM [Error] - In system/scripts/npcs/Gurl.cs on line 47, column 73
+12/14/2014 10:34:41 PM           Argument missing
+12/14/2014 10:34:41 PM     0046: 
+12/14/2014 10:34:41 PM   * 0047: 		Msg("What can I do for you?", Button("Start a Conversation", "@talk"),);
+12/14/2014 10:34:41 PM     0048: 
+12/14/2014 10:34:41 PM 
+12/14/2014 10:34:41 PM [Info] - Done loading 46 scripts (of 47).
+12/14/2014 10:34:41 PM [Info] - Spawning creatures...
+12/14/2014 10:34:41 PM [Info] - Done spawning 124 creatures.
+12/14/2014 10:34:41 PM [Info] - Loading skill handlers...
+12/14/2014 10:34:41 PM [Info] - Done loading 32 skill handlers.
+12/14/2014 10:34:41 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/14/2014 10:34:41 PM 
+12/14/2014 10:34:41 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/14/2014 10:34:42 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/14/2014 10:34:42 PM 
+12/14/2014 10:34:42 PM [Info] - Type 'help' for a list of console commands.
+12/14/2014 10:36:31 PM [Info] - Connection established from '127.0.0.1:53721.

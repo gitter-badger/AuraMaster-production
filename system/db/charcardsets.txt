@@ -1,0 +1,63 @@
+// Aura
+// Database file
+// 
+// List of items characters of specific races receive on char creation.
+// 
+// Values: id, race, itemId, pocket, [color1], [color2], [color3]
+// 
+// colorX: Color is calculated based on selected options if value is omitted.
+// 
+//---------------------------------------------------------------------------
+
+[
+// Normal
+//---------------------------------------------------------------------------
+{ id: 1, race: 10001, itemId: 15001, pocket: 5 },
+{ id: 1, race: 10001, itemId: 17012, pocket: 7 },
+{ id: 1, race: 10002, itemId: 15002, pocket: 5 },
+{ id: 1, race: 10002, itemId: 17012, pocket: 7 },
+{ id: 1, race: 9001,  itemId: 15169, pocket: 5 },
+{ id: 1, race: 9001,  itemId: 17063, pocket: 7 },
+{ id: 1, race: 9002,  itemId: 15168, pocket: 5 },
+{ id: 1, race: 9002,  itemId: 17063, pocket: 7 },
+{ id: 1, race: 8001,  itemId: 15228, pocket: 5 },
+{ id: 1, race: 8001,  itemId: 17083, pocket: 7 },
+{ id: 1, race: 8002,  itemId: 15208, pocket: 5 },
+{ id: 1, race: 8002,  itemId: 17083, pocket: 7 },
+
+// Premium
+//---------------------------------------------------------------------------
+{ id: 2, race: 10001, itemId: 15101, pocket: 5 },
+{ id: 2, race: 10001, itemId: 17012, pocket: 7 },
+{ id: 2, race: 10002, itemId: 15097, pocket: 5 },
+{ id: 2, race: 10002, itemId: 17012, pocket: 7 },
+{ id: 2, race: 9001,  itemId: 15173, pocket: 5 },
+{ id: 2, race: 9001,  itemId: 17063, pocket: 7 },
+{ id: 2, race: 9002,  itemId: 15172, pocket: 5 },
+{ id: 2, race: 9002,  itemId: 17063, pocket: 7 },
+{ id: 2, race: 8001,  itemId: 15229, pocket: 5 },
+{ id: 2, race: 8001,  itemId: 17083, pocket: 7 },
+{ id: 2, race: 8002,  itemId: 15219, pocket: 5 },
+{ id: 2, race: 8002,  itemId: 17083, pocket: 7 },
+
+// Maid/Butler
+//---------------------------------------------------------------------------
+{ id: 1000, race: 730201, itemId: 15877, pocket: 5 },
+{ id: 1000, race: 730201, itemId: 17939, pocket: 7 },
+{ id: 1000, race: 730201, itemId: 18936, pocket: 8 },
+{ id: 1000, race: 730202, itemId: 15876, pocket: 5 },
+{ id: 1000, race: 730202, itemId: 17938, pocket: 7 },
+{ id: 1000, race: 730202, itemId: 16162, pocket: 6 },
+{ id: 1000, race: 730204, itemId: 15877, pocket: 5 },
+{ id: 1000, race: 730204, itemId: 17939, pocket: 7 },
+{ id: 1000, race: 730204, itemId: 18936, pocket: 8 },
+{ id: 1000, race: 730205, itemId: 15876, pocket: 5 },
+{ id: 1000, race: 730205, itemId: 17938, pocket: 7 },
+{ id: 1000, race: 730205, itemId: 16162, pocket: 6 },
+
+// Commerce Partner
+//---------------------------------------------------------------------------
+{ id: 1002, race: 730206, itemId: 15932, pocket: 5, color1: 0xFFFFFF, color2: 0xFF624A, color3: 0x800000 },
+{ id: 1002, race: 730206, itemId: 17977, pocket: 7, color1: 0x282828, color2: 0xFFFFFF, color3: 0xFF624A },
+{ id: 1002, race: 730206, itemId: 18395, pocket: 8, color1: 0xFF624A, color2: 0xFFFF00 },
+]

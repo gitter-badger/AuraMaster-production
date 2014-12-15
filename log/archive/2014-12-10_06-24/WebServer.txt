@@ -1,0 +1,15 @@
+12/10/2014 6:24:50 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 6:24:50 PM [Info] - Initializing database...
+12/10/2014 6:24:50 PM [Info] - Starting web server...
+12/10/2014 6:24:50 PM [Error] - An exception occured while starting the server.
+12/10/2014 6:24:50 PM [Exception] - NHttp.NHttpException: Failed to start HTTP server ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at NHttp.HttpServer.Start()
+   --- End of inner exception stack trace ---
+   at NHttp.HttpServer.Start()
+   at Aura.Web.WebServer.StartWebServer() in u:\aura-master\src\WebServer\WebServer.cs:line 88
+   at Aura.Web.WebServer.Run() in u:\aura-master\src\WebServer\WebServer.cs:line 58
+   at Aura.Web.Program.Main(String[] args) in u:\aura-master\src\WebServer\Program.cs:line 18
+12/10/2014 6:24:50 PM [Info] - Press Enter to exit.

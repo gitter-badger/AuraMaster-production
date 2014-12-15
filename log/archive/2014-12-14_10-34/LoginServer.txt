@@ -1,0 +1,35 @@
+12/14/2014 10:31:28 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/14/2014 10:31:28 PM [Info] - Initializing database...
+12/14/2014 10:31:29 PM [Info] - Checking for updates...
+12/14/2014 10:31:29 PM [Info] - Loading data...
+12/14/2014 10:31:29 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/14/2014 10:31:29 PM [Info] -   done loading 316 entries from races.txt
+12/14/2014 10:31:29 PM [Info] -   done loading 3 entries from stats_base.txt
+12/14/2014 10:31:29 PM [Info] -   done loading 9 entries from charcards.txt
+12/14/2014 10:31:30 PM [Info] -   done loading 112 entries from colormap.dat
+12/14/2014 10:31:30 PM [Info] -   done loading 14711 entries from items.txt
+12/14/2014 10:31:30 PM [Info] -   done loading 28 entries from chairs.txt
+12/14/2014 10:31:30 PM [Info] -   done loading 254 entries from pets.txt
+12/14/2014 10:31:30 PM [Info] - Loading localization (us)...
+12/14/2014 10:31:30 PM [Info] - Loading Web API...
+12/14/2014 10:31:30 PM [Info] - Web API listening on 0.0.0.0:10999
+12/14/2014 10:31:30 PM [Status] - Server ready, listening on 0.0.0.0:11000.
+12/14/2014 10:31:30 PM [Info] - Type 'help' for a list of console commands.
+12/14/2014 10:31:36 PM [Info] - Connection established from '127.0.0.1:53659.
+12/14/2014 10:31:38 PM [Info] - New channel registered: Ch1@Aura
+12/14/2014 10:32:12 PM [Info] - Connection established from '25.175.208.42:53617.
+12/14/2014 10:32:14 PM [Info] - User 'ouuo' logged in.
+12/14/2014 10:32:17 PM [Info] - 'ouuo' is closing the connection.
+12/14/2014 10:32:17 PM [Info] - Connection closed from '25.175.208.42:53617.
+12/14/2014 10:32:33 PM [Info] - Connection established from '25.11.234.192:53674.
+12/14/2014 10:32:35 PM [Info] - User 'Kamina' logged in.
+12/14/2014 10:32:53 PM [Info] - 'Kamina' is closing the connection.
+12/14/2014 10:32:53 PM [Info] - Connection closed from '25.11.234.192:53674.
+12/14/2014 10:33:22 PM [Info] - Connection established from '25.175.208.42:53637.
+12/14/2014 10:33:23 PM [Info] - User 'ouuo' logged in.
+12/14/2014 10:33:26 PM [Info] - 'ouuo' is closing the connection.
+12/14/2014 10:33:27 PM [Info] - Connection closed from '25.175.208.42:53637.
+12/14/2014 10:33:34 PM [Info] - Connection established from '25.11.234.192:53704.
+12/14/2014 10:33:36 PM [Info] - User 'Kamina' logged in.
+12/14/2014 10:34:09 PM [Info] - 'Kamina' is closing the connection.
+12/14/2014 10:34:09 PM [Info] - Connection closed from '25.11.234.192:53704.

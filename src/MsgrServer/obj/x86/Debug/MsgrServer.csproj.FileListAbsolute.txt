@@ -1,0 +1,12 @@
+U:\aura-master\bin\Debug\MsgrServer.exe.config
+U:\aura-master\bin\Debug\MsgrServer.exe
+U:\aura-master\bin\Debug\MsgrServer.pdb
+U:\aura-master\src\MsgrServer\obj\x86\Debug\MsgrServer.csprojResolveAssemblyReference.cache
+U:\aura-master\src\MsgrServer\obj\x86\Debug\MsgrServer.exe
+U:\aura-master\src\MsgrServer\obj\x86\Debug\MsgrServer.pdb
+U:\aura-master - Copy\bin\Debug\MsgrServer.exe.config
+U:\aura-master - Copy\bin\Debug\MsgrServer.exe
+U:\aura-master - Copy\bin\Debug\MsgrServer.pdb
+U:\aura-master - Copy\src\MsgrServer\obj\x86\Debug\MsgrServer.csprojResolveAssemblyReference.cache
+U:\aura-master - Copy\src\MsgrServer\obj\x86\Debug\MsgrServer.exe
+U:\aura-master - Copy\src\MsgrServer\obj\x86\Debug\MsgrServer.pdb

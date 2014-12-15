@@ -1,0 +1,42 @@
+// Aura
+// Database file
+// 
+// Values: id, [name], set, allowed
+// 
+// set: Set of items added on creation (see charcardsets)
+// 
+// allowed: Races allowed to be created with the card (bitmask).
+//     0x01  Humans F | 0x02  Humans M | 0x03  Humans
+//     0x04  Elves  F | 0x08  Elves  M | 0x0C  Elves
+//     0x10  Giants F | 0x20  Giants M | 0x30  Giants
+//     0x33  Humans + Giants
+//     0x3C  Elves  + Giants
+//     0xFF  Everybody
+//---------------------------------------------------------------------------
+
+[
+// Basic
+//---------------------------------------------------------------------------
+{ id: 0,  name: "Basic Human Card",     set: 1, allowed: 0x03, tradeItem: 92041, tradePoints: 70 },
+{ id: 16, name: "Basic Elf Card",       set: 1, allowed: 0x0C, tradeItem: 92057, tradePoints: 70 },
+{ id: 30, name: "Basic Giant Card",     set: 1, allowed: 0x30, tradeItem: 92071, tradePoints: 70 },
+
+// Premium
+//---------------------------------------------------------------------------
+{ id: 1,  name: "Premium Human Card",   set: 2, allowed: 0x03, tradeItem: 92042, tradePoints: 90 },
+{ id: 17, name: "Premium Elf Card",     set: 2, allowed: 0x0C, tradeItem: 92058, tradePoints: 90 },
+{ id: 31, name: "Premium Giant Card",   set: 2, allowed: 0x30, tradeItem: 92072, tradePoints: 90 },
+
+// Assist
+//---------------------------------------------------------------------------
+{ id: 18, name: "Elf Assistant Card",   set: 1, allowed: 0x0C },
+{ id: 32, name: "Giant Assistant Card", set: 1, allowed: 0x30 },
+
+// Free
+//---------------------------------------------------------------------------
+{ id: 147, name: "Free Card",           set: 1, allowed: 0xFF },
+
+// Special
+//---------------------------------------------------------------------------
+// { ... }
+]

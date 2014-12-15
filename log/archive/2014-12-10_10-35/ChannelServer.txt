@@ -1,0 +1,71 @@
+12/10/2014 10:24:00 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 10:24:00 PM [Info] - Initializing database...
+12/10/2014 10:24:01 PM [Info] - Loading data...
+12/10/2014 10:24:01 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/10/2014 10:24:01 PM [Info] -   done loading 316 entries from races.txt
+12/10/2014 10:24:01 PM [Info] -   done loading 3 entries from stats_base.txt
+12/10/2014 10:24:01 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/10/2014 10:24:01 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/10/2014 10:24:02 PM [Info] -   done loading 54 entries from motions.txt
+12/10/2014 10:24:02 PM [Info] -   done loading 9 entries from charcards.txt
+12/10/2014 10:24:02 PM [Info] -   done loading 112 entries from colormap.dat
+12/10/2014 10:24:03 PM [Info] -   done loading 14711 entries from items.txt
+12/10/2014 10:24:03 PM [Info] -   done loading 28 entries from chairs.txt
+12/10/2014 10:24:03 PM [Info] -   done loading 534 entries from skills.txt
+12/10/2014 10:24:03 PM [Info] -   done loading 387 entries from regions.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/10/2014 10:24:04 PM [Info] -   done loading 607 entries from shamala.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 200 entries from exp.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 254 entries from pets.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 30 entries from weather.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 3666 entries from keywords.txt
+12/10/2014 10:24:04 PM [Info] -   done loading 748 entries from titles.txt
+12/10/2014 10:24:04 PM [Info] - Loading localization (us)...
+12/10/2014 10:24:04 PM [Info] - Initializing world...
+12/10/2014 10:24:06 PM [Info] -   done loading 387 regions.
+12/10/2014 10:24:06 PM [Info] - Loading AI scripts...
+12/10/2014 10:24:08 PM [Info] - Done loading AI scripts.
+12/10/2014 10:24:08 PM [Info] - Loading item scripts...
+12/10/2014 10:24:09 PM [Info] - Done loading item scripts.
+12/10/2014 10:24:09 PM [Info] - Loading scripts, this might take a few minutes...
+12/10/2014 10:24:10 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'Sweeden.cs'.
+12/10/2014 10:24:15 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'deian.cs'.
+12/10/2014 10:24:23 PM 
+12/10/2014 10:24:23 PM [Info] - Done loading 47 scripts (of 47).
+12/10/2014 10:24:23 PM [Info] - Spawning creatures...
+12/10/2014 10:24:23 PM [Info] - Done spawning 124 creatures.
+12/10/2014 10:24:23 PM [Info] - Loading skill handlers...
+12/10/2014 10:24:23 PM [Info] - Done loading 32 skill handlers.
+12/10/2014 10:24:23 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/10/2014 10:24:23 PM 
+12/10/2014 10:24:23 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/10/2014 10:24:24 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/10/2014 10:24:24 PM 
+12/10/2014 10:24:24 PM [Info] - Type 'help' for a list of console commands.
+12/10/2014 10:25:02 PM [Info] - Connection established from '25.11.234.192:64277.
+12/10/2014 10:25:04 PM [Status] - Creatures currently in region 1: 135
+12/10/2014 10:25:04 PM [Debug] - AI crash in 'FoxAi'.
+12/10/2014 10:25:05 PM [Debug] - AI crash in 'FoxAi'.
+12/10/2014 10:25:05 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:25:05 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:25:05 PM [Debug] - OMG, the server has an irregular heartbeat! (1171.0669)
+12/10/2014 10:25:06 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:25:06 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:25:06 PM [Debug] - OMG, the server has an irregular heartbeat! (1671.0955)
+12/10/2014 10:25:12 PM [Unimplemented] - PacketHandlerManager: Handler for '699E'
+12/10/2014 10:25:12 PM [Debug] - Op: 0000699E, Id: 001000000000000C
+001 [............271D] Short  : 10013
+002 [............0005] Short  : 5
+003 [............0006] Short  : 6
+004 [........00000001] Int    : 1
+005 [0000000000000000] Long   : 0
+
+12/10/2014 10:26:40 PM [Warning] - CancelActiveSkill: Player 'Fucktard' tried to cancel skill, without it being active.
+12/10/2014 10:26:51 PM [Info] - 'Kamina' is closing the connection. Saving...
+12/10/2014 10:26:51 PM [Status] - Creatures currently in region 1: 134
+12/10/2014 10:26:51 PM [Info] - Connection closed from '25.11.234.192:64277.
+12/10/2014 10:27:00 PM [Info] - Saved global script variables.
+12/10/2014 10:32:00 PM [Info] - Saved global script variables.
+12/10/2014 10:35:19 PM [Info] - Connection established from '25.11.234.192:64718.
+12/10/2014 10:35:23 PM [Info] - Connection lost from '25.11.234.192:64718'.

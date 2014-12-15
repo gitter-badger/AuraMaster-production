@@ -1,0 +1,65 @@
+12/10/2014 10:15:55 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 10:15:55 PM [Info] - Initializing database...
+12/10/2014 10:15:55 PM [Info] - Loading data...
+12/10/2014 10:15:55 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 316 entries from races.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 3 entries from stats_base.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 54 entries from motions.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 9 entries from charcards.txt
+12/10/2014 10:15:56 PM [Info] -   done loading 112 entries from colormap.dat
+12/10/2014 10:15:57 PM [Info] -   done loading 14711 entries from items.txt
+12/10/2014 10:15:57 PM [Info] -   done loading 28 entries from chairs.txt
+12/10/2014 10:15:57 PM [Info] -   done loading 534 entries from skills.txt
+12/10/2014 10:15:57 PM [Info] -   done loading 387 entries from regions.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/10/2014 10:15:58 PM [Info] -   done loading 607 entries from shamala.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 200 entries from exp.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 254 entries from pets.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 30 entries from weather.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 3666 entries from keywords.txt
+12/10/2014 10:15:58 PM [Info] -   done loading 748 entries from titles.txt
+12/10/2014 10:15:58 PM [Info] - Loading localization (us)...
+12/10/2014 10:15:58 PM [Info] - Initializing world...
+12/10/2014 10:16:00 PM [Info] -   done loading 387 regions.
+12/10/2014 10:16:00 PM [Info] - Loading AI scripts...
+12/10/2014 10:16:01 PM [Info] - Done loading AI scripts.
+12/10/2014 10:16:01 PM [Info] - Loading item scripts...
+12/10/2014 10:16:02 PM [Info] - Done loading item scripts.
+12/10/2014 10:16:02 PM [Info] - Loading scripts, this might take a few minutes...
+12/10/2014 10:16:03 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'Sweeden.cs'.
+12/10/2014 10:16:07 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'deian.cs'.
+12/10/2014 10:16:14 PM 
+12/10/2014 10:16:14 PM [Info] - Done loading 47 scripts (of 47).
+12/10/2014 10:16:14 PM [Info] - Spawning creatures...
+12/10/2014 10:16:14 PM [Info] - Done spawning 124 creatures.
+12/10/2014 10:16:14 PM [Info] - Loading skill handlers...
+12/10/2014 10:16:14 PM [Info] - Done loading 32 skill handlers.
+12/10/2014 10:16:14 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/10/2014 10:16:14 PM 
+12/10/2014 10:16:14 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/10/2014 10:16:15 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/10/2014 10:16:15 PM 
+12/10/2014 10:16:15 PM [Info] - Type 'help' for a list of console commands.
+12/10/2014 10:16:52 PM [Info] - Connection established from '25.11.234.192:63974.
+12/10/2014 10:16:56 PM [Status] - Creatures currently in region 1: 135
+12/10/2014 10:16:57 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:16:57 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:16:58 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:16:58 PM [Debug] - OMG, the server has an irregular heartbeat! (1097.0627)
+12/10/2014 10:18:12 PM [Unimplemented] - PacketHandlerManager: Handler for '699E'
+12/10/2014 10:18:12 PM [Debug] - Op: 0000699E, Id: 001000000000000C
+001 [............271D] Short  : 10013
+002 [............0005] Short  : 5
+003 [............0006] Short  : 6
+004 [........00000001] Int    : 1
+005 [0000000000000000] Long   : 0
+
+12/10/2014 10:18:16 PM [Unimplemented] - SkillPrepare: Skill handler or interface for 'Handicraft'.
+12/10/2014 10:18:22 PM [Unimplemented] - SkillPrepare: Skill handler or interface for 'Handicraft'.
+12/10/2014 10:20:00 PM [Info] - Saved global script variables.
+12/10/2014 10:21:01 PM [Info] - 'Kamina' is closing the connection. Saving...
+12/10/2014 10:21:01 PM [Status] - Creatures currently in region 1: 134
+12/10/2014 10:21:02 PM [Info] - Connection closed from '25.11.234.192:63974.

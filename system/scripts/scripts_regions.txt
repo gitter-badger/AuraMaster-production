@@ -1,0 +1,19 @@
+// Aura
+// Script list file
+//
+// All scripts listed here will be loaded.
+//---------------------------------------------------------------------------
+
+regions/tir_beginner.cs
+regions/tir.cs
+regions/sidhe.cs
+regions/dugald.cs
+regions/dunbarton.cs
+regions/gairech.cs
+regions/bangor.cs
+regions/sen_mag.cs
+regions/osna_snail.cs
+regions/emain.cs
+regions/ceo.cs
+
+include "/user/scripts/scripts_regions.txt"

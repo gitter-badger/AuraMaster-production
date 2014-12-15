@@ -1,0 +1,10 @@
+U:\aura-master\bin\Debug\Shared.dll
+U:\aura-master\bin\Debug\Shared.pdb
+U:\aura-master\src\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+U:\aura-master\src\Shared\obj\Debug\Shared.dll
+U:\aura-master\src\Shared\obj\Debug\Shared.pdb
+U:\aura-master - Copy\src\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+U:\aura-master - Copy\src\Shared\obj\Debug\Shared.dll
+U:\aura-master - Copy\src\Shared\obj\Debug\Shared.pdb
+U:\aura-master - Copy\bin\Debug\Shared.dll
+U:\aura-master - Copy\bin\Debug\Shared.pdb

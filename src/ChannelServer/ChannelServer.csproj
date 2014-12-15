@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A902E04-6143-4D1D-9074-75EB133CC9E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aura.Channel</RootNamespace>
+    <AssemblyName>ChannelServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>..\..\lib\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.Compiler">
+      <HintPath>..\..\lib\Boo.Lang.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.Extensions">
+      <HintPath>..\..\lib\Boo.Lang.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.Parser">
+      <HintPath>..\..\lib\Boo.Lang.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.PatternMatching">
+      <HintPath>..\..\lib\Boo.Lang.PatternMatching.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.Useful">
+      <HintPath>..\..\lib\Boo.Lang.Useful.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.NAnt.Tasks">
+      <HintPath>..\..\lib\Boo.NAnt.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="CSScriptLibrary">
+      <HintPath>..\..\lib\CSScriptLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\Account.cs" />
+    <Compile Include="Database\ChannelDb.cs" />
+    <Compile Include="Network\ChannelClient.cs" />
+    <Compile Include="ChannelServer.cs" />
+    <Compile Include="Network\Handlers\Base.cs" />
+    <Compile Include="Network\Handlers\Combat.cs" />
+    <Compile Include="Network\Handlers\Chat.cs" />
+    <Compile Include="Network\Handlers\Internal.cs" />
+    <Compile Include="Network\Handlers\Character.cs" />
+    <Compile Include="Network\Handlers\Items.cs" />
+    <Compile Include="Network\Handlers\GMCP.cs" />
+    <Compile Include="Network\Handlers\Pets.cs" />
+    <Compile Include="Network\Handlers\Props.cs" />
+    <Compile Include="Network\Handlers\Quests.cs" />
+    <Compile Include="Network\Handlers\Rebirth.cs" />
+    <Compile Include="Network\Handlers\Skills.cs" />
+    <Compile Include="Network\Handlers\LogInOut.cs" />
+    <Compile Include="Network\Handlers\Misc.cs" />
+    <Compile Include="Network\Handlers\Movement.cs" />
+    <Compile Include="Network\Handlers\NPCs.cs" />
+    <Compile Include="Network\InternalClient.cs" />
+    <Compile Include="Network\Sending\Helpers\ConditionHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\CreatureHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\EntityHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\ItemHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\PropHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\PvpHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\QuestHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\RegenHelper.cs" />
+    <Compile Include="Network\Sending\Helpers\TalentHelper.cs" />
+    <Compile Include="Network\Sending\Send.GMCP.cs" />
+    <Compile Include="Network\Sending\Send.Quests.cs" />
+    <Compile Include="Network\Sending\Send.Effects.cs" />
+    <Compile Include="Network\Sending\Send.Pets.cs" />
+    <Compile Include="Network\Sending\Send.Skills.cs" />
+    <Compile Include="Network\Sending\Send.Items.cs" />
+    <Compile Include="Network\Sending\Send.Props.cs" />
+    <Compile Include="Network\Sending\Send.Misc.cs" />
+    <Compile Include="Network\Sending\Send.Combat.cs" />
+    <Compile Include="Network\Sending\Send.Creature.cs" />
+    <Compile Include="Network\Sending\Send.NPCs.cs" />
+    <Compile Include="Network\Sending\Send.Character.cs" />
+    <Compile Include="Network\Sending\Send.LogInOut.cs" />
+    <Compile Include="Network\Sending\Send.Internal.cs" />
+    <Compile Include="Network\Sending\Send.Messages.cs" />
+    <Compile Include="Network\Sending\Send.Rebirth.cs" />
+    <Compile Include="Network\Sending\Send.Vehicles.cs" />
+    <Compile Include="Network\Sending\Send.World.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripting\Compilers\BooCompiler.cs" />
+    <Compile Include="Scripting\CreatureSpawn.cs" />
+    <Compile Include="Scripting\NpcSession.cs" />
+    <Compile Include="Scripting\ScriptAttributes.cs" />
+    <Compile Include="Scripting\Scripts\AiScript.cs" />
+    <Compile Include="Scripting\Scripts\GeneralScript.cs" />
+    <Compile Include="Scripting\Scripts\DialogElements.cs" />
+    <Compile Include="Scripting\Scripts\IScript.cs" />
+    <Compile Include="Scripting\Scripts\ItemScript.cs" />
+    <Compile Include="Scripting\Scripts\NpcScript.cs" />
+    <Compile Include="Scripting\Compilers\Compiler.cs" />
+    <Compile Include="Scripting\Compilers\CompilerErrors.cs" />
+    <Compile Include="Scripting\Compilers\CSharpCompiler.cs" />
+    <Compile Include="Scripting\ScriptManager.cs" />
+    <Compile Include="Scripting\Scripts\QuestScript.cs" />
+    <Compile Include="Scripting\Scripts\RegionScript.cs" />
+    <Compile Include="Scripting\ScriptVariables.cs" />
+    <Compile Include="Scripting\MagicWordsScript.cs" />
+    <Compile Include="Skills\Actions\ContinentWarp.cs" />
+    <Compile Include="Skills\Actions\OutfitAction.cs" />
+    <Compile Include="Skills\Base\CombatSkillHandler.cs" />
+    <Compile Include="Skills\Base\HandicraftHandler.cs" />
+    <Compile Include="Skills\Base\Interfaces.cs" />
+    <Compile Include="Skills\Base\SpreadWings.cs" />
+    <Compile Include="Skills\Base\StandardPrepareHandler.cs" />
+    <Compile Include="Skills\Base\StartStopSkillHandler.cs" />
+    <Compile Include="Skills\CombatAction.cs" />
+    <Compile Include="Skills\Combat\ArrowRevolverHandler.cs" />
+    <Compile Include="Skills\Combat\CombatMastery.cs" />
+    <Compile Include="Skills\Combat\Defense.cs" />
+    <Compile Include="Skills\Combat\MagnumShotHandler.cs" />
+    <Compile Include="Skills\Combat\MeleeCounter.cs" />
+    <Compile Include="Skills\Combat\RangedCombatMasteryHandler.cs" />
+    <Compile Include="Skills\Combat\Smash.cs" />
+    <Compile Include="Skills\Combat\SupportShotHandler.cs" />
+    <Compile Include="Skills\Combat\WindmillHandler.cs" />
+    <Compile Include="Skills\Hidden\DyeSkillHandler.cs" />
+    <Compile Include="Skills\Life\RestSkillHandler.cs" />
+    <Compile Include="Skills\Magic\Adv\Thunder.cs" />
+    <Compile Include="Skills\Magic\Bolts\FireBoltHandler.cs" />
+    <Compile Include="Skills\Magic\Bolts\IceBoltHandler.cs" />
+    <Compile Include="Skills\Magic\Bolts\LightningBoltHandler.cs" />
+    <Compile Include="Skills\Magic\Bolts\SuperIceBoltHandler.cs" />
+    <Compile Include="Skills\Magic\Healing.cs" />
+    <Compile Include="Skills\Magic\ManaShieldSkillHandler.cs" />
+    <Compile Include="Skills\Magic\SilentMove.cs" />
+    <Compile Include="Skills\Music\ComposingSkillHandler.cs" />
+    <Compile Include="Skills\Music\PlayingInstrumentHandler.cs" />
+    <Compile Include="Skills\Music\SongSkillHandler.cs" />
+    <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Skills\SkillHelper.cs" />
+    <Compile Include="Skills\SkillManager.cs" />
+    <Compile Include="Skills\Transformation\AwakeningOfLight.cs" />
+    <Compile Include="Skills\Transformation\DemonofPhysis.cs" />
+    <Compile Include="Skills\Transformation\FuryofConnous.cs" />
+    <Compile Include="Skills\Transformation\SoulofChaos.cs" />
+    <Compile Include="Skills\Transformation\SpiritofOrder.cs" />
+    <Compile Include="Util\Configuration\ChannelConf.cs" />
+    <Compile Include="Util\ChannelConsoleCommands.cs" />
+    <Compile Include="Util\Configuration\Files\Autoban.cs" />
+    <Compile Include="Util\Configuration\Files\Channel.cs" />
+    <Compile Include="Util\Configuration\Files\Commands.cs" />
+    <Compile Include="Util\Configuration\Files\World.cs" />
+    <Compile Include="Util\GmCommands.cs" />
+    <Compile Include="Util\Quadtree.cs" />
+    <Compile Include="Util\Security.cs" />
+    <Compile Include="World\Cutscene.cs" />
+    <Compile Include="World\Entities\Character.cs" />
+    <Compile Include="World\Entities\Creature.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureConditions.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureDrops.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureQuests.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureRegen.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureSkills.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureStatMods.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureTemp.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureTitles.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureKeywords.cs" />
+    <Compile Include="World\Entities\Creatures\CreatureDeadMenu.cs" />
+    <Compile Include="World\Entities\Entity.cs" />
+    <Compile Include="World\Entities\Item.cs" />
+    <Compile Include="World\Entities\NPC.cs" />
+    <Compile Include="World\Entities\Pet.cs" />
+    <Compile Include="World\Entities\PlayerCreature.cs" />
+    <Compile Include="World\Entities\Prop.cs" />
+    <Compile Include="World\EventManager.cs" />
+    <Compile Include="World\Inventory\CreatureInventory.cs" />
+    <Compile Include="World\Inventory\InventoryPockets.cs" />
+    <Compile Include="World\Location.cs" />
+    <Compile Include="World\Position.cs" />
+    <Compile Include="World\Quests\Objectives.cs" />
+    <Compile Include="World\Quests\Prerequisites.cs" />
+    <Compile Include="World\Quests\Quest.cs" />
+    <Compile Include="World\Quests\Rewards.cs" />
+    <Compile Include="World\Region.cs" />
+    <Compile Include="World\RegionCollision.cs" />
+    <Compile Include="Scripting\Scripts\NpcShopScript.cs" />
+    <Compile Include="World\WorldManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{2DEA473E-6FD9-4875-926E-8A1CF3E89703}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{49B4C28D-3E7D-4F57-8549-B0E13354DE5D}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,60 @@
+12/10/2014 6:42:05 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 6:42:05 PM [Info] - Initializing database...
+12/10/2014 6:42:05 PM [Info] - Loading data...
+12/10/2014 6:42:05 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 316 entries from races.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 3 entries from stats_base.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 54 entries from motions.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 9 entries from charcards.txt
+12/10/2014 6:42:06 PM [Info] -   done loading 112 entries from colormap.dat
+12/10/2014 6:42:07 PM [Info] -   done loading 14711 entries from items.txt
+12/10/2014 6:42:07 PM [Info] -   done loading 28 entries from chairs.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 534 entries from skills.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 387 entries from regions.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/10/2014 6:42:08 PM [Info] -   done loading 607 entries from shamala.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 200 entries from exp.txt
+12/10/2014 6:42:08 PM [Info] -   done loading 254 entries from pets.txt
+12/10/2014 6:42:09 PM [Info] -   done loading 30 entries from weather.txt
+12/10/2014 6:42:09 PM [Info] -   done loading 3666 entries from keywords.txt
+12/10/2014 6:42:09 PM [Info] -   done loading 748 entries from titles.txt
+12/10/2014 6:42:09 PM [Info] - Loading localization (us)...
+12/10/2014 6:42:09 PM [Info] - Initializing world...
+12/10/2014 6:42:11 PM [Info] -   done loading 387 regions.
+12/10/2014 6:42:11 PM [Info] - Loading AI scripts...
+12/10/2014 6:42:12 PM [Info] - Done loading AI scripts.
+12/10/2014 6:42:12 PM [Info] - Loading item scripts...
+12/10/2014 6:42:13 PM [Info] - Done loading item scripts.
+12/10/2014 6:42:13 PM [Info] - Loading scripts, this might take a few minutes...
+12/10/2014 6:42:25 PM 
+12/10/2014 6:42:25 PM [Info] - Done loading 45 scripts (of 45).
+12/10/2014 6:42:25 PM [Info] - Spawning creatures...
+12/10/2014 6:42:25 PM [Info] - Done spawning 124 creatures.
+12/10/2014 6:42:25 PM [Info] - Loading skill handlers...
+12/10/2014 6:42:25 PM [Info] - Done loading 30 skill handlers.
+12/10/2014 6:42:25 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/10/2014 6:42:25 PM 
+12/10/2014 6:42:25 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/10/2014 6:42:26 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/10/2014 6:42:26 PM 
+12/10/2014 6:42:26 PM [Info] - Type 'help' for a list of console commands.
+12/10/2014 6:42:28 PM [Info] - Connection established from '127.0.0.1:61928.
+12/10/2014 6:42:30 PM [Status] - Creatures currently in region 1: 133
+12/10/2014 6:42:31 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 6:42:32 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 6:42:32 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 6:42:53 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 6:42:53 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 6:43:08 PM [Info] - 'Kamina' is closing the connection. Saving...
+12/10/2014 6:43:08 PM [Status] - Creatures currently in region 1: 132
+12/10/2014 6:43:09 PM [Info] - Connection closed from '127.0.0.1:61928.
+12/10/2014 6:46:00 PM [Info] - Saved global script variables.
+12/10/2014 6:51:00 PM [Info] - Saved global script variables.

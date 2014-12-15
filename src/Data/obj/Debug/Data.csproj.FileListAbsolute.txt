@@ -1,0 +1,14 @@
+U:\aura-master\src\Data\bin\Debug\Data.dll
+U:\aura-master\src\Data\bin\Debug\Data.pdb
+U:\aura-master\src\Data\bin\Debug\MsgPack.dll
+U:\aura-master\src\Data\bin\Debug\Newtonsoft.Json.dll
+U:\aura-master\src\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+U:\aura-master\src\Data\obj\Debug\Data.dll
+U:\aura-master\src\Data\obj\Debug\Data.pdb
+U:\aura-master - Copy\src\Data\bin\Debug\Data.dll
+U:\aura-master - Copy\src\Data\bin\Debug\Data.pdb
+U:\aura-master - Copy\src\Data\bin\Debug\MsgPack.dll
+U:\aura-master - Copy\src\Data\bin\Debug\Newtonsoft.Json.dll
+U:\aura-master - Copy\src\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+U:\aura-master - Copy\src\Data\obj\Debug\Data.dll
+U:\aura-master - Copy\src\Data\obj\Debug\Data.pdb

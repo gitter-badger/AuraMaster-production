@@ -1,0 +1,6 @@
+ProdId: 1, MadeItem: 45003, ProdCount: 100, Rank:1, MerchExp: 0, Recipe:"63002*5;64011*1",ManaReq:0,SuccessR1:99,SuccessR2:99,SuccessR3:99,SuccessR4:99,SuccessR5:99,SuccessR6:99,SuccessR7:99,SuccessR8:99,SuccessR9:99,SuccessRA:99,SuccessRB:99,SuccessRC:99,SuccessR1:99,SuccessRD:99,SuccessRE:99,SuccessRF:99,SuccessRN:0
+Temp2
+Temp3
+Temp4
+i,i,i,s,i,s,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i
+ProdId: 6, MadeItem: 40044, ProdCount: 1, Rank:1, MerchExp: 0, Recipe:"63002*3;",ManaReq:0,SuccessR1:80,SuccessR2:76,SuccessR3:73,SuccessR4:70,SuccessR5:70,SuccessR6:66,SuccessR7:63,SuccessR8:60,SuccessR9:57,SuccessRA:53,SuccessRB:50,SuccessRC:45,SuccessR1:40,SuccessRD:35,SuccessRE:30,SuccessRF:25,SuccessRN:0

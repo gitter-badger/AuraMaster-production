@@ -1,0 +1,78 @@
+12/10/2014 6:13:57 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 6:13:57 PM [Info] - Initializing database...
+12/10/2014 6:13:58 PM [Info] - Loading data...
+12/10/2014 6:13:58 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/10/2014 6:13:58 PM [Info] -   done loading 316 entries from races.txt
+12/10/2014 6:13:58 PM [Info] -   done loading 3 entries from stats_base.txt
+12/10/2014 6:13:58 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/10/2014 6:13:58 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/10/2014 6:13:59 PM [Info] -   done loading 54 entries from motions.txt
+12/10/2014 6:13:59 PM [Info] -   done loading 9 entries from charcards.txt
+12/10/2014 6:13:59 PM [Info] -   done loading 112 entries from colormap.dat
+12/10/2014 6:14:00 PM [Info] -   done loading 14711 entries from items.txt
+12/10/2014 6:14:00 PM [Info] -   done loading 28 entries from chairs.txt
+12/10/2014 6:14:00 PM [Info] -   done loading 534 entries from skills.txt
+12/10/2014 6:14:00 PM [Info] -   done loading 387 entries from regions.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/10/2014 6:14:01 PM [Info] -   done loading 607 entries from shamala.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 200 entries from exp.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 254 entries from pets.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 30 entries from weather.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 3666 entries from keywords.txt
+12/10/2014 6:14:01 PM [Info] -   done loading 748 entries from titles.txt
+12/10/2014 6:14:01 PM [Info] - Loading localization (us)...
+12/10/2014 6:14:01 PM [Info] - Initializing world...
+12/10/2014 6:14:03 PM [Info] -   done loading 387 regions.
+12/10/2014 6:14:03 PM [Info] - Loading AI scripts...
+12/10/2014 6:14:05 PM [Info] - Done loading AI scripts.
+12/10/2014 6:14:05 PM [Info] - Loading item scripts...
+12/10/2014 6:14:06 PM [Info] - Done loading item scripts.
+12/10/2014 6:14:06 PM [Info] - Loading scripts, this might take a few minutes...
+12/10/2014 6:14:19 PM 
+12/10/2014 6:14:19 PM [Info] - Done loading 45 scripts (of 45).
+12/10/2014 6:14:19 PM [Info] - Spawning creatures...
+12/10/2014 6:14:19 PM [Info] - Done spawning 124 creatures.
+12/10/2014 6:14:19 PM [Info] - Loading skill handlers...
+12/10/2014 6:14:19 PM [Info] - Done loading 30 skill handlers.
+12/10/2014 6:14:19 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/10/2014 6:14:19 PM 
+12/10/2014 6:14:19 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/10/2014 6:14:20 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/10/2014 6:14:20 PM 
+12/10/2014 6:14:20 PM [Info] - Type 'help' for a list of console commands.
+12/10/2014 6:14:40 PM [Info] - Connection established from '127.0.0.1:61236.
+12/10/2014 6:14:40 PM [Error] - Problem while loading character '4503599627370504'.
+12/10/2014 6:14:40 PM [Exception] - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddToMap(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 183
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddUnsafe(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 260
+   at Aura.Channel.World.Inventory.CreatureInventory.InitAdd(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\CreatureInventory.cs:line 610
+   at Aura.Channel.Database.ChannelDb.GetCharacterItems(PlayerCreature character) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 308
+   at Aura.Channel.Database.ChannelDb.GetCharacter[TCreature](Account account, Int64 entityId, String table) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 258
+   at Aura.Channel.Database.ChannelDb.GetAccount(String accountId) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 92
+12/10/2014 6:14:40 PM [Warning] - Client '127.0.0.1:61236' : Account <NULL> (Controlling <NULL>) just committed a Severe offense. Incident report: GetCharacterOrPetSafe: Account doesn't contain character 0x10000000000008
+12/10/2014 6:14:40 PM [Info] - Killed connection from '127.0.0.1:61236'.
+12/10/2014 6:18:00 PM [Info] - Saved global script variables.
+12/10/2014 6:19:32 PM [Info] - Connection established from '127.0.0.1:61397.
+12/10/2014 6:19:32 PM [Error] - Problem while loading character '4503599627370504'.
+12/10/2014 6:19:32 PM [Exception] - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddToMap(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 183
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddUnsafe(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 260
+   at Aura.Channel.World.Inventory.CreatureInventory.InitAdd(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\CreatureInventory.cs:line 610
+   at Aura.Channel.Database.ChannelDb.GetCharacterItems(PlayerCreature character) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 308
+   at Aura.Channel.Database.ChannelDb.GetCharacter[TCreature](Account account, Int64 entityId, String table) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 258
+   at Aura.Channel.Database.ChannelDb.GetAccount(String accountId) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 92
+12/10/2014 6:19:32 PM [Warning] - Client '127.0.0.1:61397' : Account <NULL> (Controlling <NULL>) just committed a Severe offense. Incident report: GetCharacterOrPetSafe: Account doesn't contain character 0x1000000000000B
+12/10/2014 6:19:32 PM [Info] - Killed connection from '127.0.0.1:61397'.
+12/10/2014 6:23:00 PM [Info] - Saved global script variables.
+12/10/2014 6:24:37 PM [Info] - Connection established from '127.0.0.1:61758.
+12/10/2014 6:24:38 PM [Error] - Problem while loading character '4503599627370504'.
+12/10/2014 6:24:38 PM [Exception] - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddToMap(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 183
+   at Aura.Channel.World.Inventory.InventoryPocketNormal.AddUnsafe(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\InventoryPockets.cs:line 260
+   at Aura.Channel.World.Inventory.CreatureInventory.InitAdd(Item item) in u:\aura-master\src\ChannelServer\World\Inventory\CreatureInventory.cs:line 610
+   at Aura.Channel.Database.ChannelDb.GetCharacterItems(PlayerCreature character) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 308
+   at Aura.Channel.Database.ChannelDb.GetCharacter[TCreature](Account account, Int64 entityId, String table) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 258
+   at Aura.Channel.Database.ChannelDb.GetAccount(String accountId) in u:\aura-master\src\ChannelServer\Database\ChannelDb.cs:line 92
+12/10/2014 6:24:38 PM [Warning] - Client '127.0.0.1:61758' : Account <NULL> (Controlling <NULL>) just committed a Severe offense. Incident report: GetCharacterOrPetSafe: Account doesn't contain character 0x1000000000000B
+12/10/2014 6:24:38 PM [Info] - Killed connection from '127.0.0.1:61758'.

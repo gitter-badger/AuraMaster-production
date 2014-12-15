@@ -1,0 +1,111 @@
+12/10/2014 10:40:23 PM [Warning] - Using the default inter server password is risky, please change it in 'inter.conf'.
+12/10/2014 10:40:23 PM [Info] - Initializing database...
+12/10/2014 10:40:23 PM [Info] - Loading data...
+12/10/2014 10:40:23 PM [Info] -   done loading 20 entries from ancient_drops.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 316 entries from races.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 3 entries from stats_base.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 3 entries from stats_levelup.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 3 entries from stats_ageup.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 54 entries from motions.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 9 entries from charcards.txt
+12/10/2014 10:40:24 PM [Info] -   done loading 112 entries from colormap.dat
+12/10/2014 10:40:25 PM [Info] -   done loading 14711 entries from items.txt
+12/10/2014 10:40:25 PM [Info] -   done loading 28 entries from chairs.txt
+12/10/2014 10:40:25 PM [Info] -   done loading 534 entries from skills.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 387 entries from regions.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 387 entries from regioninfo.dat
+12/10/2014 10:40:26 PM [Info] -   done loading 607 entries from shamala.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 3 entries from prop_drops.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 200 entries from exp.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 254 entries from pets.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 30 entries from weather.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 3666 entries from keywords.txt
+12/10/2014 10:40:26 PM [Info] -   done loading 748 entries from titles.txt
+12/10/2014 10:40:26 PM [Info] - Loading localization (us)...
+12/10/2014 10:40:26 PM [Info] - Initializing world...
+12/10/2014 10:40:29 PM [Info] -   done loading 387 regions.
+12/10/2014 10:40:29 PM [Info] - Loading AI scripts...
+12/10/2014 10:40:30 PM [Info] - Done loading AI scripts.
+12/10/2014 10:40:30 PM [Info] - Loading item scripts...
+12/10/2014 10:40:31 PM [Info] - Done loading item scripts.
+12/10/2014 10:40:31 PM [Info] - Loading scripts, this might take a few minutes...
+12/10/2014 10:40:31 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'Sweeden.cs'.
+12/10/2014 10:40:35 PM [Error] - Script classes must have unique names, duplicate 'DeianShop' found in 'deian.cs'.
+12/10/2014 10:40:42 PM 
+12/10/2014 10:40:42 PM [Info] - Done loading 47 scripts (of 47).
+12/10/2014 10:40:42 PM [Info] - Spawning creatures...
+12/10/2014 10:40:42 PM [Info] - Done spawning 124 creatures.
+12/10/2014 10:40:42 PM [Info] - Loading skill handlers...
+12/10/2014 10:40:42 PM [Info] - Done loading 32 skill handlers.
+12/10/2014 10:40:42 PM [Status] - Server ready, listening on 0.0.0.0:11020.
+12/10/2014 10:40:42 PM 
+12/10/2014 10:40:42 PM [Info] - Trying to connect to login server at 127.0.0.1:11000...
+12/10/2014 10:40:43 PM [Info] - Connection to login server at '127.0.0.1:11000' established.
+12/10/2014 10:40:43 PM 
+12/10/2014 10:40:43 PM [Info] - Type 'help' for a list of console commands.
+12/10/2014 10:41:19 PM [Info] - Connection established from '25.11.234.192:64811.
+12/10/2014 10:41:21 PM [Status] - Creatures currently in region 1: 135
+12/10/2014 10:41:22 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:41:22 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:41:23 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:41:23 PM [Debug] - AI crash in 'NormalNpcAi'.
+12/10/2014 10:41:33 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:33 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:33 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:33 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:42 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:42 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:42 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:42 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:42 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:42 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:43 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:43 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:46 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:46 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:41:46 PM [Error] - There has been a problem while handling 'F213303'.
+12/10/2014 10:41:46 PM [Exception] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aura.Channel.World.Entities.Creature.Move(Position destination, Boolean walking) in u:\aura-master - Copy\src\ChannelServer\World\Entities\Creature.cs:line 709
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Run(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Movement.cs:line 47
+   at Aura.Shared.Network.PacketHandlerManager`1.Handle(TClient client, Packet packet) in u:\aura-master - Copy\src\Shared\Network\PacketHandlerManager.cs:line 72
+   at Aura.Channel.Network.Handlers.ChannelServerHandlers.Handle(ChannelClient client, Packet packet) in u:\aura-master - Copy\src\ChannelServer\Network\Handlers\Base.cs:line 56
+   at Aura.Shared.Network.DefaultServer`1.HandleBuffer(TClient client, Byte[] buffer) in u:\aura-master - Copy\src\Shared\Network\DefaultServer.cs:line 66
+12/10/2014 10:43:40 PM [Info] - 'Kamina' is closing the connection. Saving...
+12/10/2014 10:43:40 PM [Status] - Creatures currently in region 1: 134
+12/10/2014 10:43:40 PM [Info] - Connection closed from '25.11.234.192:64811.
+12/10/2014 10:44:00 PM [Info] - Saved global script variables.
